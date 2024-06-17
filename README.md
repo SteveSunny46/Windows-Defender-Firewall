@@ -1,20 +1,35 @@
-# Windows Defender Firewall
+# Windows Defender & Windows Defender Firewall 
 ## Project Goal: 
-Understanding and Adjusting the Windows Defender Firewall 
+Understanding and Adjusting the Windows Defender Virus scans and Firewall 
 ## Scenario 
 Configure the Firewall to Block Windows Remote Management on the Public Network
 
 # Setup information 
-To access the Firewall settings we must: 
+To access the Windows Defender Anti-Virus and Firewall settings we must: 
 
 1. Open Settings: Start menu > Settings (gear icon) or press Win + I.
 
-2. Navigate to Network & Internet: Click on "Network & Internet."
-
-3. Select Status: Click on "Status."
-
-4. Open Windows Firewall Settings: Scroll down and click on "Windows Firewall."
+2. Navigate to Privacy & Security: Click on " Virus & Threat Protection" for Windows Defender Anti-Virus OR click on Firewall & Network Protection for Windows Defender Firewall
    
+# Windows Defender Anti-Virus
+
+It is vital to make sure everything is up-to-date and to regularly scan your computer for potential compromises. 
+
+Updating the Virus & Threat Protection allows Windows Defender to have up-to-date information on Virus Definitions, thus allowing it to detect any of the known definitions. 
+
+![Screenshot 2024-06-06 at 5 27 02 PM](https://github.com/SteveSunny46/Windows-Defender-Firewall/assets/171859383/b3e540f1-9fa2-4c0b-9118-b8f5e84c4f1d)
+
+Additionally, you can perform different types of scans:
+
+- Quick Scans: Quickly check the most vulnerable areas of your computer.
+- Full Scans: Thoroughly scan the entire computer for threats.
+- Custom Scans: Scan specific sections or folders of the computer as needed.
+
+In the screenshot below, we demonstrate how a custom scan works. We chose to scan all programs and files located on the desktop. Since this virtual machine contains few folders, the scan quickly completed and confirmed that no threats were found in this section.
+![Screenshot 2024-06-06 at 5 31 49 PM](https://github.com/SteveSunny46/Windows-Defender-Firewall/assets/171859383/6f239fe5-785c-4250-b1cb-deea9d019c5b)
+
+
+# Windows Defender Firewall 
 
 Over here we can see the network profiles (Domain, Private, Public)
 
