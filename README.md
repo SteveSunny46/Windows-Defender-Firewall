@@ -25,7 +25,7 @@ Additionally, you can perform different types of scans:
 - Full Scans: Thoroughly scan the entire computer for threats.
 - Custom Scans: Scan specific sections or folders of the computer as needed.
 
-In the screenshot below, we demonstrate how a custom scan works. We chose to scan all programs and files located on the desktop. Since this virtual machine contains few folders, the scan quickly completed and confirmed that no threats were found in this section.
+In the screenshot below, we demonstrate how a custom scan works. We chose to scan all programs and files located on the desktop. Since this virtual machine contains few folders, the scan quickly completed and confirmed that no threats were found in this section. Now that we know the computer is safe, we can move onto the Firewall settings. 
 ![Screenshot 2024-06-06 at 5 31 49 PM](https://github.com/SteveSunny46/Windows-Defender-Firewall/assets/171859383/6f239fe5-785c-4250-b1cb-deea9d019c5b)
 
 
